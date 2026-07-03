@@ -61,8 +61,6 @@ Place your trained `model.pkl` and `vectorizer.pkl` inside `backend/`, then:
 uvicorn main:app --reload --port 8000
 ```
 
-Check it's up: [http://localhost:8000/health](http://localhost:8000/health)
-
 ### Frontend
 
 ```bash
@@ -71,7 +69,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173)
+Open [https://spam-classifier-frontend.vercel.app/](https://spam-classifier-frontend.vercel.app/)
 
 ## API
 
