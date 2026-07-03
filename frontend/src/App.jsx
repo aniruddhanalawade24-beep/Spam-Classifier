@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 // Point this at wherever your FastAPI backend is running.
-const API_URL = "http://localhost:8000/predict";
+const API_URL = "https://spam-classifier-backend-zrid.onrender.com/";
 
 const SAMPLE_MESSAGES = [
   "Congratulations! You've WON a $1000 Walmart gift card. Click here to claim now!!!",
