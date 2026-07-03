@@ -67,7 +67,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://spam-classifier-frontend.vercel.app/",
+        "https://spam-classifier-frontend.vercel.app",
     ],
     allow_methods=["*"],
     allow_headers=["*"],
